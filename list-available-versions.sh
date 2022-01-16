@@ -2,4 +2,4 @@
 
 cd "$(dirname $0)"
 
-docker run ubuntu:20.04 bash -c "apt-get update && apt-cache madison mariadb-server"
+docker run ubuntu:21.04 bash -c "apt-get update && apt-cache madison mariadb-server"
